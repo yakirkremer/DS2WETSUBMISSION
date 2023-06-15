@@ -14,14 +14,14 @@ RecordsCompany::~RecordsCompany(){
 
 StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
 {
+    if(number_of_records < 0)
+        return INVALID_INPUT;
     try
     {
-        //Records *tmp = new Records(number_of_records);
-    /*    for (int i = 0; i < number_of_records; ++i) {
-            tmp->add(new Record(i, records_stocks[i]), i, i);
-        }*/
+
         unionfind2* tmp = new unionfind2(records_stocks, number_of_records);
         customers->resetExpenses();
+        members->resetPrizes();
 
         delete records;
         records = tmp;
@@ -30,13 +30,7 @@ StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
     catch (bad_alloc&){
         return ALLOCATION_ERROR;
     }
-    /*
-    //free old data
-    disks = new UnionFind(records_stocks,number_of_records);
-    costumers = new HashTable();
-    vip_costumers = new AVLTree<VipCostumer>();
-    return SUCCESS;
-    */
+
 }
 
 StatusType RecordsCompany::addCostumer(int c_id, int phone)
@@ -76,6 +70,8 @@ Output_t<int> RecordsCompany::getPhone(int c_id)
 
 StatusType RecordsCompany::makeMember(int c_id)
 {
+    if(c_id == 543)
+        int s = 5;
     if(!validId(c_id))
         return INVALID_INPUT;
     try{
@@ -112,7 +108,7 @@ Output_t<bool> RecordsCompany::isMember(int c_id)
 
 StatusType RecordsCompany::buyRecord(int c_id, int r_id)
 {
-    if(c_id == 69)
+    if(c_id == 543)
         int s = 5;
     if(!validId(c_id) || !validId(r_id))
         return INVALID_INPUT;
@@ -151,13 +147,14 @@ StatusType RecordsCompany::addPrize(int c_id1, int c_id2, double  amount)
 
 Output_t<double> RecordsCompany::getExpenses(int c_id)
 {
-    if(c_id == 69)
+    if(c_id == 543)
         int s = 5;
     if(!validId(c_id))
         return INVALID_INPUT;
     try {
         double  res = 0;
         Customer* customer = members->getData(c_id);
+
             return customer->getExpenses() -  members->getPrizes(c_id);
     }
     catch (NoNodeExist)
@@ -189,6 +186,8 @@ StatusType RecordsCompany::putOnTop(int r_id1, int r_id2)
 
 StatusType RecordsCompany::getPlace(int r_id, int *column, int *hight)
 {
+    if(r_id == 11)
+        int s = 5;
     if(r_id < 0 || hight == NULL || column == NULL)
         return INVALID_INPUT;
     if(r_id >= records->getSize())

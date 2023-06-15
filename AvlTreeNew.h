@@ -205,7 +205,7 @@ public:
             cur->setRight(addNode(cur->right, newNode));
 
         cur->updateHeight();
-        return cur;
+        //return cur;
         return fixBalance(cur);
     }
     virtual Node* removeNode(Node * cur, const key& requestedKey){

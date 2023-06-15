@@ -160,6 +160,8 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         return calculatePrizes(nextSon(cur,Id),Id) + dynamic_cast<MemberNode*>(cur)->getPrizes();
 
     }
+
+
 /*
     void fixPrizes(int lastId,Node* cur, double prizes){
         if(cur == NULL)
@@ -312,6 +314,18 @@ public:
         addPrizesNew(max,head,amount);
         addPrizesNew(min,head,-amount);
 
+    }
+
+    void resetPrizes(){
+        resetPrizes(dynamic_cast<MemberNode*>(head));
+    }
+
+    void resetPrizes(MemberNode* cur){
+        if(cur == NULL)
+            return;
+        resetPrizes(dynamic_cast<MemberNode*>(cur->right));
+        resetPrizes(dynamic_cast<MemberNode*>(cur->left));
+        cur->setPrizes(0);
     }
 
 
