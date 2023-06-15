@@ -141,14 +141,26 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
     }
 
     int calculatePrizes(Node * cur,int Id){
+
+
+
         if(cur == NULL)
             return 0;
-        if(getKey(cur) == Id)
+        if(cur->getId() == Id)
             return dynamic_cast<MemberNode*>(cur)->getPrizes();
+        if(cur->getId() < Id){
+            return calculatePrizes(cur->right,Id) +dynamic_cast<MemberNode*>(cur)->getPrizes();
+        }
+        if(cur->getId() > Id){
+            return calculatePrizes(cur->left,Id) +dynamic_cast<MemberNode*>(cur)->getPrizes();
+        }
+
+
+
         return calculatePrizes(nextSon(cur,Id),Id) + dynamic_cast<MemberNode*>(cur)->getPrizes();
 
     }
-
+/*
     void fixPrizes(int lastId,Node* cur, double prizes){
         if(cur == NULL)
             return;
@@ -164,8 +176,8 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         }
         if(lastId > getKey(cur))
             return fixPrizes(lastId,cur->right,prizes);
-    }
-    void addPrizes(int lastId,Node* cur, double prizes = 1){
+    }*/
+  /*  void addPrizes(int lastId,Node* cur, double prizes = 1){
         if(cur == NULL)
             return;
         if(lastId > getKey(cur)) {
@@ -176,6 +188,34 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
             return addPrizes(lastId,cur->left,prizes);
         }
     }
+*/
+    void addPrizeRight(int last, Node*cur, double prizes){
+        if(cur == NULL)
+            return;
+
+        if(cur->getId() >= last){
+            dynamic_cast<MemberNode*>(cur)->increasePrizes(-prizes);
+            addPrizesNew(last,cur->left,prizes);
+        }
+
+        if(cur-> getId() < last){
+            addPrizeRight(last,cur->right,prizes);
+        }
+
+    }
+
+    void addPrizesNew(int last, Node*cur, double prizes){
+        if(cur == NULL)
+            return;
+        if(cur-> getId() < last){
+            dynamic_cast<MemberNode*>(cur)->increasePrizes(prizes);
+            addPrizeRight(last,cur->right,prizes);
+        }
+        if(cur->getId() >= last){
+            addPrizesNew(last,cur->left,prizes);
+        }
+    }
+
     const int& getKey(Node* cur)const override{
         if(cur == NULL)
             throw NoNodeExist();
@@ -267,8 +307,10 @@ public:
         if(amount<= 0 || max < min || min < 0)
             throw InvalidInput();
 
-        addPrizes(max,head,amount);
-        addPrizes(min,head,-amount);
+        //addPrizes(max,head,amount);
+        //addPrizes(min,head,-amount);
+        addPrizesNew(max,head,amount);
+        addPrizesNew(min,head,-amount);
 
     }
 

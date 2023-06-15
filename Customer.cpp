@@ -23,6 +23,8 @@ const bool Customer::isMember()const {
 }
 
 void Customer::purchaseRecord(int purchases) {
+    if(c_id == 69)
+        int s = 5;
     if(isMember())
         expenses += purchases +100;
 }

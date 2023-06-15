@@ -112,6 +112,8 @@ Output_t<bool> RecordsCompany::isMember(int c_id)
 
 StatusType RecordsCompany::buyRecord(int c_id, int r_id)
 {
+    if(c_id == 69)
+        int s = 5;
     if(!validId(c_id) || !validId(r_id))
         return INVALID_INPUT;
     if(r_id >= records->getSize() )
@@ -149,6 +151,8 @@ StatusType RecordsCompany::addPrize(int c_id1, int c_id2, double  amount)
 
 Output_t<double> RecordsCompany::getExpenses(int c_id)
 {
+    if(c_id == 69)
+        int s = 5;
     if(!validId(c_id))
         return INVALID_INPUT;
     try {
