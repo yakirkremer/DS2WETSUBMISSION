@@ -1,1 +1,23 @@
 Result for test38:
+Line 272 - out: getExpenses: -193
+Line 272 - result: getExpenses: -12
+Line 287 - out: getExpenses: -324
+Line 287 - result: getExpenses: -143
+Line 302 - out: getExpenses: -324
+Line 302 - result: getExpenses: -143
+Line 627 - out: getExpenses: -453
+Line 627 - result: getExpenses: -289
+Line 630 - out: getExpenses: -573
+Line 630 - result: getExpenses: -392
+Line 694 - out: getExpenses: -356
+Line 694 - result: getExpenses: -203
+Line 793 - out: getExpenses: -178
+Line 793 - result: getExpenses: -78
+Line 837 - out: getExpenses: -313
+Line 837 - result: getExpenses: -185
+Line 869 - out: getExpenses: -1130
+Line 869 - result: getExpenses: -838
+Line 879 - out: getExpenses: -648
+Line 879 - result: getExpenses: -495
+Line 937 - out: getExpenses: -1137
+Line 937 - result: getExpenses: -438

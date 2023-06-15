@@ -6,83 +6,83 @@ Result file for test15: Lines match
 Result file for test16: Lines match
 Result file for test17: Lines match
 Result file for test18: Lines match
-Result file for test19: Lines match
-Result file for test20: Lines match
-Result file for test21: Lines match
-Result file for test22: Lines match
-Result file for test23: Lines match
-Result file for test24: Lines match
-Result file for test25: Lines match
-Result file for test26: Lines match
-Result file for test27: Lines match
-Result file for test28: Lines match
-Result file for test29: Lines match
-Result file for test30: Lines match
-Result file for test31: Lines match
-Result file for test32: Lines match
-Result file for test33: Lines match
-Result file for test34: Lines match
-Result file for test35: Lines match
-Result file for test36: Lines match
-Result file for test37: Lines match
-Result file for test38: Lines match
-Result file for test39: Lines match
-Result file for test40: Lines match
-Result file for test41: Lines match
-Result file for test42: Lines match
-Result file for test43: Lines match
-Result file for test44: Lines match
-Result file for test45: Lines match
-Result file for test46: Lines match
-Result file for test47: Lines match
-Result file for test48: Lines match
-Result file for test49: Lines match
-Result file for test50: Lines match
-Result file for test51: Lines match
-Result file for test52: Lines match
-Result file for test53: Lines match
-Result file for test54: Lines match
-Result file for test55: Lines match
-Result file for test56: Lines match
-Result file for test57: Lines match
-Result file for test58: Lines match
-Result file for test59: Lines match
-Result file for test60: Lines match
-Result file for test61: Lines match
-Result file for test62: Lines match
-Result file for test63: Lines match
-Result file for test64: Lines match
-Result file for test65: Lines match
-Result file for test66: Lines match
-Result file for test67: Lines match
-Result file for test68: Lines match
-Result file for test69: Lines match
-Result file for test70: Lines match
-Result file for test71: Lines match
-Result file for test72: Lines match
-Result file for test73: Lines match
-Result file for test74: Lines match
-Result file for test75: Lines match
-Result file for test76: Lines match
-Result file for test77: Lines match
-Result file for test78: Lines match
-Result file for test79: Lines match
-Result file for test80: Lines match
-Result file for test81: Lines match
-Result file for test82: Lines match
-Result file for test83: Lines match
-Result file for test84: Lines match
-Result file for test85: Lines match
-Result file for test86: Lines match
-Result file for test87: Lines match
-Result file for test88: Lines match
-Result file for test89: Lines match
-Result file for test90: Lines match
-Result file for test91: Lines match
-Result file for test92: Lines match
-Result file for test93: Lines match
-Result file for test94: Lines match
-Result file for test95: Lines match
-Result file for test96: Lines match
-Result file for test97: Lines match
-Result file for test98: Lines match
+Result file for test19: 2 line(s) mismatched
+Result file for test20: 23 line(s) mismatched
+Result file for test21: 10 line(s) mismatched
+Result file for test22: 12 line(s) mismatched
+Result file for test23: 31 line(s) mismatched
+Result file for test24: 37 line(s) mismatched
+Result file for test25: 14 line(s) mismatched
+Result file for test26: 12 line(s) mismatched
+Result file for test27: 21 line(s) mismatched
+Result file for test28: 3 line(s) mismatched
+Result file for test29: 28 line(s) mismatched
+Result file for test30: 21 line(s) mismatched
+Result file for test31: 7 line(s) mismatched
+Result file for test32: 24 line(s) mismatched
+Result file for test33: 21 line(s) mismatched
+Result file for test34: 3 line(s) mismatched
+Result file for test35: 15 line(s) mismatched
+Result file for test36: 30 line(s) mismatched
+Result file for test37: 28 line(s) mismatched
+Result file for test38: 11 line(s) mismatched
+Result file for test39: 24 line(s) mismatched
+Result file for test40: 16 line(s) mismatched
+Result file for test41: 8 line(s) mismatched
+Result file for test42: 18 line(s) mismatched
+Result file for test43: 17 line(s) mismatched
+Result file for test44: 23 line(s) mismatched
+Result file for test45: 13 line(s) mismatched
+Result file for test46: 29 line(s) mismatched
+Result file for test47: 12 line(s) mismatched
+Result file for test48: 13 line(s) mismatched
+Result file for test49: 20 line(s) mismatched
+Result file for test50: 99 line(s) mismatched
+Result file for test51: 48 line(s) mismatched
+Result file for test52: 81 line(s) mismatched
+Result file for test53: 80 line(s) mismatched
+Result file for test54: 88 line(s) mismatched
+Result file for test55: 56 line(s) mismatched
+Result file for test56: 131 line(s) mismatched
+Result file for test57: 117 line(s) mismatched
+Result file for test58: 209 line(s) mismatched
+Result file for test59: 68 line(s) mismatched
+Result file for test60: 70 line(s) mismatched
+Result file for test61: 60 line(s) mismatched
+Result file for test62: 109 line(s) mismatched
+Result file for test63: 68 line(s) mismatched
+Result file for test64: 79 line(s) mismatched
+Result file for test65: 78 line(s) mismatched
+Result file for test66: 46 line(s) mismatched
+Result file for test67: 141 line(s) mismatched
+Result file for test68: 110 line(s) mismatched
+Result file for test69: 70 line(s) mismatched
+Result file for test70: 84 line(s) mismatched
+Result file for test71: 133 line(s) mismatched
+Result file for test72: 85 line(s) mismatched
+Result file for test73: 81 line(s) mismatched
+Result file for test74: 88 line(s) mismatched
+Result file for test75: 88 line(s) mismatched
+Result file for test76: 71 line(s) mismatched
+Result file for test77: 158 line(s) mismatched
+Result file for test78: 69 line(s) mismatched
+Result file for test79: 135 line(s) mismatched
+Result file for test80: 53 line(s) mismatched
+Result file for test81: 78 line(s) mismatched
+Result file for test82: 34 line(s) mismatched
+Result file for test83: 40 line(s) mismatched
+Result file for test84: 115 line(s) mismatched
+Result file for test85: 53 line(s) mismatched
+Result file for test86: 63 line(s) mismatched
+Result file for test87: 176 line(s) mismatched
+Result file for test88: 101 line(s) mismatched
+Result file for test89: 57 line(s) mismatched
+Result file for test90: 87 line(s) mismatched
+Result file for test91: 66 line(s) mismatched
+Result file for test92: 118 line(s) mismatched
+Result file for test93: 66 line(s) mismatched
+Result file for test94: 104 line(s) mismatched
+Result file for test95: 71 line(s) mismatched
+Result file for test96: 141 line(s) mismatched
+Result file for test97: 70 line(s) mismatched
+Result file for test98: 104 line(s) mismatched

@@ -1,1 +1,21 @@
 Result for test21:
+Line 138 - out: getExpenses: 8
+Line 138 - result: getExpenses: 114
+Line 179 - out: getExpenses: 141
+Line 179 - result: getExpenses: 109
+Line 237 - out: getExpenses: 48
+Line 237 - result: getExpenses: 16
+Line 315 - out: getExpenses: -117
+Line 315 - result: getExpenses: -46
+Line 345 - out: getExpenses: 6
+Line 345 - result: getExpenses: 80
+Line 350 - out: getExpenses: -117
+Line 350 - result: getExpenses: -46
+Line 386 - out: getExpenses: -137
+Line 386 - result: getExpenses: -34
+Line 866 - out: getExpenses: 0
+Line 866 - result: getExpenses: -14
+Line 937 - out: getExpenses: -220
+Line 937 - result: getExpenses: -234
+Line 999 - out: getExpenses: -161
+Line 999 - result: getExpenses: -175

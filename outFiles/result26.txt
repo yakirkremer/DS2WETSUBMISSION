@@ -1,1 +1,25 @@
 Result for test26:
+Line 126 - out: getExpenses: 201
+Line 126 - result: getExpenses: 275
+Line 262 - out: getExpenses: -459
+Line 262 - result: getExpenses: -385
+Line 325 - out: getExpenses: -223
+Line 325 - result: getExpenses: 297
+Line 374 - out: getExpenses: 65
+Line 374 - result: getExpenses: 585
+Line 424 - out: getExpenses: -741
+Line 424 - result: getExpenses: -667
+Line 484 - out: getExpenses: 48
+Line 484 - result: getExpenses: 568
+Line 571 - out: getExpenses: -83
+Line 571 - result: getExpenses: 326
+Line 588 - out: getExpenses: -908
+Line 588 - result: getExpenses: -834
+Line 876 - out: getExpenses: -434
+Line 876 - result: getExpenses: -10
+Line 894 - out: getExpenses: -506
+Line 894 - result: getExpenses: -82
+Line 954 - out: getExpenses: -486
+Line 954 - result: getExpenses: -62
+Line 996 - out: getExpenses: -377
+Line 996 - result: getExpenses: 228

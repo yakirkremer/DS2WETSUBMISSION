@@ -1,1 +1,25 @@
 Result for test47:
+Line 267 - out: getExpenses: 600
+Line 267 - result: getExpenses: 485
+Line 422 - out: getExpenses: -274
+Line 422 - result: getExpenses: -389
+Line 526 - out: getExpenses: -576
+Line 526 - result: getExpenses: -691
+Line 671 - out: getExpenses: -143
+Line 671 - result: getExpenses: -172
+Line 702 - out: getExpenses: -561
+Line 702 - result: getExpenses: -309
+Line 724 - out: getExpenses: -139
+Line 724 - result: getExpenses: -110
+Line 894 - out: getExpenses: -268
+Line 894 - result: getExpenses: -288
+Line 898 - out: getExpenses: -261
+Line 898 - result: getExpenses: -281
+Line 921 - out: getExpenses: -287
+Line 921 - result: getExpenses: -307
+Line 974 - out: getExpenses: -259
+Line 974 - result: getExpenses: -279
+Line 983 - out: getExpenses: -371
+Line 983 - result: getExpenses: -391
+Line 991 - out: getExpenses: -70
+Line 991 - result: getExpenses: 92

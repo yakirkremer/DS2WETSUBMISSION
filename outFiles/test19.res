@@ -31,7 +31,7 @@ addPrize: SUCCESS
 getPhone: 240
 makeMember: SUCCESS
 buyRecord: SUCCESS
-getExpenses: -76
+getExpenses: 100
 addCostumer: SUCCESS
 isMember: True
 putOnTop: SUCCESS
@@ -90,7 +90,7 @@ buyRecord: DOESNT_EXISTS
 getPlace: column=5, hight=0
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
-getExpenses: -227
+getExpenses: -51
 getExpenses: DOESNT_EXISTS
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS

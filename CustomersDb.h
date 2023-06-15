@@ -113,9 +113,9 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         //dynamic_cast<MemberNode*>(cur->left)->increasePrizes()
 
         Node * res = rotateLL(cur);
-        dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
-        dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
-        dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
+        //dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
+        //dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
+        //dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
         return res;
     }
     virtual  Node* rotateRL(Node *cur) {
@@ -128,9 +128,9 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         cur->setRight(rotateLL(cur->right));
 
         Node* res =  rotateRR(cur);
-        dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
-        dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
-        dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
+        //dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
+        //dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
+        //dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
         return res;
     }
 

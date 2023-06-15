@@ -1,1 +1,7 @@
 Result for test34:
+Line 210 - out: getExpenses: -129
+Line 210 - result: getExpenses: -428
+Line 217 - out: getExpenses: 0
+Line 217 - result: getExpenses: -317
+Line 801 - out: getExpenses: -175
+Line 801 - result: getExpenses: 101
