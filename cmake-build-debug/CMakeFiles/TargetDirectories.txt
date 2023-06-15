@@ -1,0 +1,3 @@
+C:/Users/yakir/Documents/TechnionHW/Matam/DS2WET_NEW/submission/cmake-build-debug/CMakeFiles/submission.dir
+C:/Users/yakir/Documents/TechnionHW/Matam/DS2WET_NEW/submission/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yakir/Documents/TechnionHW/Matam/DS2WET_NEW/submission/cmake-build-debug/CMakeFiles/rebuild_cache.dir
