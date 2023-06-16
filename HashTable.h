@@ -63,16 +63,16 @@ TEMPLATE
 void HashTable<T,K,tree>::resize() {
     T* tmpDatas = new T[n];
     T tmp;
-    int j = 0, oldSize = n;
-    //n= 0;
-    for (int i = 0; i < oldSize; ++i) {
-        tmp = data[j]->popRoot();
-        while(tmp == NULL){
-            j++;
+    int i = 0, oldSize = n; int oldArraySize = m;
+    for (int j = 0; j <oldArraySize; ++j) {
+        if(data[j] != NULL){
             tmp = data[j]->popRoot();
+            while(tmp!=NULL){
+                tmpDatas[i] = tmp;
+                i++;
+                tmp = data[j]->popRoot();
+            }
         }
-        tmpDatas[i] = tmp;
-
     }
     m*= resizeFactor;
     delete [] data;

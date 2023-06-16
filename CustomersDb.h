@@ -43,95 +43,61 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         void increasePrizes(double prizesAmount){prizes += prizesAmount;}
     };
 
-    virtual Node* rotateLL(Node *cur){
-        //return cur;
+    void fixPrizesRotationRight(Node* cur){
         Node* A = cur;
         Node* B = cur->left;
-        int Bprizes = dynamic_cast<MemberNode*>(B)->getPrizes();
-        int Aprizes = dynamic_cast<MemberNode*>(A)->getPrizes();
+        Node * C =B->right;
+        int x1,x2;
+        int x3 = 0;
+        x1 = dynamic_cast<MemberNode*>(A)->getPrizes();
+        x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
+        if(C!= nullptr)
+            x3 = dynamic_cast<MemberNode*>(C)->getPrizes();
 
-        int x1 = dynamic_cast<MemberNode*>(A)->getPrizes();
-        int  x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
-        if(B->right != NULL){
-            dynamic_cast<MemberNode*>(B->right)->increasePrizes(x2);
-        }
+        dynamic_cast<MemberNode*>(A)->setPrizes(-x2);
+        dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2);
+        if(C!= nullptr)
+            dynamic_cast<MemberNode*>(C)->setPrizes(x2+x3);
+
+    }
+
+    void fixPrizesRotationLeft(Node* cur){
+        Node* A = cur;
+        Node* B = cur->right;
+        Node * C =B->left;
+        int x1,x2;
+        int x3 = 0;
+        x1 = dynamic_cast<MemberNode*>(A)->getPrizes();
+        x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
+        if(C!= nullptr)
+            x3 = dynamic_cast<MemberNode*>(C)->getPrizes();
+
+        dynamic_cast<MemberNode*>(A)->setPrizes(-x2);
+        dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2);
+        if(C!= nullptr)
+            dynamic_cast<MemberNode*>(C)->setPrizes(x2+x3);
+
+    }
+
+    virtual Node* rotateLL(Node *cur){
+        fixPrizesRotationRight(cur);
+        Node* A = cur;
+        Node* B = cur->left;
         A->setLeft(B->right);
         B->setRight(A);
-
-
-       /* if(A->left != NULL){
-            int Cprizes =dynamic_cast<MemberNode*>(A->right)->getPrizes();
-            dynamic_cast<MemberNode*>(A->left)->increasePrizes(Bprizes);
-        }*/
-
-
-        dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2);
-        dynamic_cast<MemberNode*>(A)->setPrizes(-x2);
-
-        /*
-        if(A->left != NULL)
-        {
-            dynamic_cast<MemberNode *>(A->left)->increasePrizes(-Aprizes);
-        }
-        */
         A->updateHeight();
         B->updateHeight();
-
         return B;
     }
     virtual Node* rotateRR(Node *cur){
-
+        fixPrizesRotationLeft(cur);
         Node* A = cur;
         Node* B = cur->right;
-
-        int Bprizes = dynamic_cast<MemberNode*>(B)->getPrizes();
-        int Aprizes = dynamic_cast<MemberNode*>(A)->getPrizes();
-        int x1 = dynamic_cast<MemberNode*>(A)->getPrizes();
-       int  x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
-       if(B->left != NULL){
-           dynamic_cast<MemberNode*>(B->left)->increasePrizes(x2);
-       }
         A->setRight(B->left);
         B->setLeft(A);
-
-        dynamic_cast<MemberNode*>(A)->setPrizes(-x2);
-        dynamic_cast<MemberNode*>(B)->increasePrizes(x1+x2);
-
         A->updateHeight();
         B->updateHeight();
         return B;
-    }
-
-    virtual Node* rotateLR(Node *cur) {
-        Node* B = cur->left;
-        Node * C =B->right;
-        int x1,x2,x3;
-        x1 = dynamic_cast<MemberNode*>(cur)->getPrizes();
-        x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
-        x3 = dynamic_cast<MemberNode*>(C)->getPrizes();
-        cur->setLeft(rotateRR(cur->left))  ;
-        //dynamic_cast<MemberNode*>(cur->left)->increasePrizes()
-
-        Node * res = rotateLL(cur);
-        //dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
-        //dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
-        //dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
-        return res;
-    }
-    virtual  Node* rotateRL(Node *cur) {
-        Node* B = cur->right;
-        Node * C =B->left;
-        int x1,x2,x3;
-        x1 = dynamic_cast<MemberNode*>(cur)->getPrizes();
-        x2 = dynamic_cast<MemberNode*>(B)->getPrizes();
-        x3 = dynamic_cast<MemberNode*>(C)->getPrizes();
-        cur->setRight(rotateLL(cur->right));
-
-        Node* res =  rotateRR(cur);
-        //dynamic_cast<MemberNode*>(cur)->setPrizes(-x2 -x3);
-        //dynamic_cast<MemberNode*>(B)->setPrizes(x1+x2-x3);
-        //dynamic_cast<MemberNode*>(C)->setPrizes(x1+x2+x3);
-        return res;
     }
 
     Node* nextSon(Node* cur, int Id){
@@ -160,6 +126,7 @@ class ClubMembers:public AvlTreeNew<Customer*, int>{
         return calculatePrizes(nextSon(cur,Id),Id) + dynamic_cast<MemberNode*>(cur)->getPrizes();
 
     }
+
 
 
 /*

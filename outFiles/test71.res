@@ -82,7 +82,7 @@ addCostumer: SUCCESS
 getPhone: 117
 putOnTop: DOESNT_EXISTS
 makeMember: SUCCESS
-getExpenses: 309
+getExpenses: 0
 isMember: True
 getPlace: INVALID_INPUT
 isMember: True
@@ -90,7 +90,7 @@ putOnTop: SUCCESS
 putOnTop: INVALID_INPUT
 addCostumer: SUCCESS
 addPrize: SUCCESS
-getExpenses: 221
+getExpenses: -88
 putOnTop: SUCCESS
 putOnTop: FAILURE
 getPlace: INVALID_INPUT
@@ -98,7 +98,7 @@ getPhone: 49
 addPrize: INVALID_INPUT
 addPrize: SUCCESS
 makeMember: ALREADY_EXISTS
-getExpenses: 288
+getExpenses: -21
 putOnTop: INVALID_INPUT
 addCostumer: SUCCESS
 getExpenses: INVALID_INPUT
@@ -116,9 +116,9 @@ buyRecord: SUCCESS
 isMember: False
 isMember: False
 putOnTop: INVALID_INPUT
-getExpenses: 108
+getExpenses: 0
 buyRecord: INVALID_INPUT
-getExpenses: 496
+getExpenses: 79
 makeMember: INVALID_INPUT
 getPlace: DOESNT_EXISTS
 addPrize: SUCCESS
@@ -247,7 +247,7 @@ getExpenses: INVALID_INPUT
 getPlace: INVALID_INPUT
 putOnTop: INVALID_INPUT
 buyRecord: SUCCESS
-getExpenses: 102
+getExpenses: -404
 getPlace: DOESNT_EXISTS
 addPrize: SUCCESS
 addCostumer: SUCCESS
@@ -260,7 +260,7 @@ addPrize: SUCCESS
 addPrize: SUCCESS
 getExpenses: DOESNT_EXISTS
 addPrize: SUCCESS
-getExpenses: 349
+getExpenses: -157
 putOnTop: DOESNT_EXISTS
 getPlace: DOESNT_EXISTS
 makeMember: SUCCESS
@@ -290,7 +290,7 @@ addCostumer: SUCCESS
 buyRecord: SUCCESS
 addPrize: INVALID_INPUT
 addPrize: SUCCESS
-getExpenses: 39
+getExpenses: -15
 isMember: False
 addCostumer: INVALID_INPUT
 isMember: False
@@ -310,7 +310,7 @@ addPrize: SUCCESS
 getPhone: 186
 putOnTop: FAILURE
 getExpenses: DOESNT_EXISTS
-getExpenses: -42
+getExpenses: -468
 isMember: True
 makeMember: ALREADY_EXISTS
 addCostumer: SUCCESS
@@ -329,7 +329,7 @@ getPlace: column=2, hight=0
 isMember: DOESNT_EXISTS
 getPhone: INVALID_INPUT
 isMember: False
-getExpenses: -255
+getExpenses: -540
 isMember: True
 addPrize: INVALID_INPUT
 putOnTop: DOESNT_EXISTS
@@ -341,7 +341,7 @@ addCostumer: ALREADY_EXISTS
 isMember: False
 putOnTop: DOESNT_EXISTS
 isMember: False
-getExpenses: -155
+getExpenses: -164
 getPlace: column=2, hight=50
 isMember: True
 makeMember: ALREADY_EXISTS
@@ -367,12 +367,12 @@ addPrize: SUCCESS
 addPrize: SUCCESS
 getPlace: DOESNT_EXISTS
 getPlace: INVALID_INPUT
-getExpenses: -42
+getExpenses: -468
 putOnTop: INVALID_INPUT
 isMember: True
 isMember: True
 makeMember: ALREADY_EXISTS
-getExpenses: -180
+getExpenses: -46
 putOnTop: DOESNT_EXISTS
 getPhone: 25
 getExpenses: DOESNT_EXISTS
@@ -397,7 +397,7 @@ getPhone: INVALID_INPUT
 addCostumer: SUCCESS
 addPrize: INVALID_INPUT
 buyRecord: SUCCESS
-getExpenses: -77
+getExpenses: -282
 isMember: INVALID_INPUT
 addPrize: SUCCESS
 addCostumer: SUCCESS
@@ -465,7 +465,7 @@ addCostumer: SUCCESS
 getPhone: 111
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
-getExpenses: -72
+getExpenses: -122
 makeMember: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
 buyRecord: SUCCESS
@@ -483,7 +483,7 @@ isMember: False
 getPhone: 82
 getPlace: column=2, hight=41
 isMember: True
-getExpenses: -390
+getExpenses: -675
 getPlace: DOESNT_EXISTS
 buyRecord: SUCCESS
 getPlace: DOESNT_EXISTS
@@ -491,7 +491,7 @@ isMember: True
 getExpenses: DOESNT_EXISTS
 addCostumer: SUCCESS
 getPhone: 141
-getExpenses: -390
+getExpenses: -675
 makeMember: INVALID_INPUT
 putOnTop: FAILURE
 addCostumer: SUCCESS
@@ -585,12 +585,12 @@ putOnTop: FAILURE
 getExpenses: DOESNT_EXISTS
 getExpenses: DOESNT_EXISTS
 putOnTop: DOESNT_EXISTS
-getExpenses: -303
+getExpenses: -366
 addCostumer: SUCCESS
 getPhone: 89
 isMember: True
 isMember: False
-getExpenses: -406
+getExpenses: -272
 isMember: DOESNT_EXISTS
 getPhone: 176
 makeMember: ALREADY_EXISTS
@@ -609,7 +609,7 @@ isMember: False
 getExpenses: DOESNT_EXISTS
 getPlace: INVALID_INPUT
 isMember: DOESNT_EXISTS
-getExpenses: -351
+getExpenses: -556
 putOnTop: FAILURE
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
@@ -646,9 +646,9 @@ isMember: True
 makeMember: INVALID_INPUT
 putOnTop: INVALID_INPUT
 makeMember: ALREADY_EXISTS
-getExpenses: -23
+getExpenses: -69
 isMember: False
-getExpenses: -251
+getExpenses: -390
 addCostumer: ALREADY_EXISTS
 getPhone: 109
 makeMember: SUCCESS
@@ -659,7 +659,7 @@ addPrize: SUCCESS
 makeMember: DOESNT_EXISTS
 makeMember: ALREADY_EXISTS
 addCostumer: SUCCESS
-getExpenses: -63
+getExpenses: -86
 buyRecord: INVALID_INPUT
 addPrize: INVALID_INPUT
 getPhone: INVALID_INPUT
@@ -698,7 +698,7 @@ putOnTop: DOESNT_EXISTS
 getExpenses: INVALID_INPUT
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
-getExpenses: -415
+getExpenses: -921
 getExpenses: DOESNT_EXISTS
 addPrize: SUCCESS
 makeMember: SUCCESS
@@ -737,7 +737,7 @@ getPhone: DOESNT_EXISTS
 getExpenses: -70
 getExpenses: DOESNT_EXISTS
 getPhone: 111
-getExpenses: -638
+getExpenses: -550
 getPhone: 117
 buyRecord: SUCCESS
 getPhone: 10
@@ -757,7 +757,7 @@ putOnTop: INVALID_INPUT
 isMember: False
 getPlace: INVALID_INPUT
 addCostumer: SUCCESS
-getExpenses: -673
+getExpenses: -1145
 getPhone: 141
 getPlace: DOESNT_EXISTS
 getPhone: 232
@@ -781,7 +781,7 @@ addPrize: SUCCESS
 putOnTop: DOESNT_EXISTS
 buyRecord: SUCCESS
 buyRecord: SUCCESS
-getExpenses: -418
+getExpenses: -557
 getPhone: 110
 addCostumer: SUCCESS
 getPlace: DOESNT_EXISTS
@@ -802,7 +802,7 @@ addPrize: SUCCESS
 isMember: True
 makeMember: INVALID_INPUT
 getPlace: DOESNT_EXISTS
-getExpenses: -733
+getExpenses: -1205
 buyRecord: SUCCESS
 putOnTop: DOESNT_EXISTS
 getPlace: column=2, hight=50
@@ -865,7 +865,7 @@ makeMember: SUCCESS
 makeMember: ALREADY_EXISTS
 makeMember: SUCCESS
 addCostumer: SUCCESS
-getExpenses: 460
+getExpenses: 0
 makeMember: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
 buyRecord: SUCCESS
@@ -900,7 +900,7 @@ addCostumer: SUCCESS
 addPrize: INVALID_INPUT
 addPrize: SUCCESS
 getExpenses: DOESNT_EXISTS
-getExpenses: 510
+getExpenses: 0
 buyRecord: SUCCESS
 buyRecord: SUCCESS
 buyRecord: DOESNT_EXISTS
@@ -912,7 +912,7 @@ addCostumer: SUCCESS
 putOnTop: DOESNT_EXISTS
 getPhone: DOESNT_EXISTS
 getPhone: DOESNT_EXISTS
-getExpenses: 422
+getExpenses: -88
 putOnTop: DOESNT_EXISTS
 isMember: True
 getExpenses: -43
@@ -978,7 +978,7 @@ buyRecord: SUCCESS
 isMember: False
 makeMember: ALREADY_EXISTS
 addPrize: SUCCESS
-getExpenses: -918
+getExpenses: -1424
 addCostumer: SUCCESS
 getPlace: INVALID_INPUT
 buyRecord: SUCCESS
@@ -1593,7 +1593,7 @@ getPhone: DOESNT_EXISTS
 getExpenses: -776
 putOnTop: FAILURE
 getPhone: 52
-getExpenses: -297
+getExpenses: -392
 addPrize: INVALID_INPUT
 getPhone: 208
 makeMember: ALREADY_EXISTS
@@ -1676,7 +1676,7 @@ getPlace: column=5, hight=81
 buyRecord: SUCCESS
 buyRecord: SUCCESS
 putOnTop: FAILURE
-getExpenses: -631
+getExpenses: -726
 addCostumer: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 addCostumer: ALREADY_EXISTS
@@ -1781,7 +1781,7 @@ getPhone: 157
 getPlace: DOESNT_EXISTS
 getExpenses: DOESNT_EXISTS
 buyRecord: SUCCESS
-getExpenses: -408
+getExpenses: -503
 getPhone: 194
 putOnTop: INVALID_INPUT
 isMember: True
@@ -1789,7 +1789,7 @@ isMember: DOESNT_EXISTS
 addPrize: SUCCESS
 isMember: False
 isMember: INVALID_INPUT
-getExpenses: -429
+getExpenses: -524
 isMember: True
 makeMember: INVALID_INPUT
 getPlace: column=5, hight=18
@@ -1850,7 +1850,7 @@ addCostumer: ALREADY_EXISTS
 getPhone: 49
 addCostumer: ALREADY_EXISTS
 getPlace: DOESNT_EXISTS
-getExpenses: 157
+getExpenses: 0
 getPlace: column=5, hight=0
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
@@ -1915,7 +1915,7 @@ getExpenses: -678
 makeMember: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
 getExpenses: DOESNT_EXISTS
-getExpenses: -610
+getExpenses: -705
 addCostumer: SUCCESS
 addCostumer: INVALID_INPUT
 getExpenses: INVALID_INPUT
@@ -2004,7 +2004,7 @@ isMember: False
 makeMember: SUCCESS
 addCostumer: ALREADY_EXISTS
 putOnTop: DOESNT_EXISTS
-getExpenses: -530
+getExpenses: -774
 addCostumer: ALREADY_EXISTS
 getPlace: INVALID_INPUT
 makeMember: SUCCESS
@@ -2069,7 +2069,7 @@ addCostumer: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
 makeMember: DOESNT_EXISTS
 isMember: True
-getExpenses: -201
+getExpenses: -453
 isMember: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
 addPrize: INVALID_INPUT
@@ -2082,8 +2082,8 @@ getExpenses: DOESNT_EXISTS
 getPhone: 221
 addCostumer: SUCCESS
 isMember: False
-getExpenses: -981
-getExpenses: -861
+getExpenses: -1076
+getExpenses: -1105
 addPrize: SUCCESS
 getExpenses: INVALID_INPUT
 buyRecord: SUCCESS
@@ -2141,7 +2141,7 @@ makeMember: ALREADY_EXISTS
 putOnTop: INVALID_INPUT
 getPhone: 176
 makeMember: ALREADY_EXISTS
-getExpenses: -1054
+getExpenses: -1298
 makeMember: SUCCESS
 makeMember: SUCCESS
 putOnTop: FAILURE
@@ -2189,8 +2189,8 @@ addCostumer: ALREADY_EXISTS
 addPrize: SUCCESS
 getPhone: 223
 getPlace: column=5, hight=37
-getExpenses: -960
-getExpenses: -505
+getExpenses: -1204
+getExpenses: -749
 getPlace: DOESNT_EXISTS
 putOnTop: INVALID_INPUT
 makeMember: INVALID_INPUT
@@ -2310,7 +2310,7 @@ getPhone: 185
 getPlace: DOESNT_EXISTS
 getPhone: 178
 getPlace: column=5, hight=63
-getExpenses: 342
+getExpenses: -1569
 getPlace: column=5, hight=50
 getPhone: 50
 isMember: True
@@ -2390,7 +2390,7 @@ getExpenses: DOESNT_EXISTS
 buyRecord: DOESNT_EXISTS
 addPrize: SUCCESS
 getExpenses: -1932
-getExpenses: -520
+getExpenses: -1186
 getPlace: INVALID_INPUT
 getExpenses: DOESNT_EXISTS
 isMember: True
@@ -2426,7 +2426,7 @@ getPlace: column=5, hight=0
 putOnTop: INVALID_INPUT
 getPlace: column=5, hight=50
 putOnTop: DOESNT_EXISTS
-getExpenses: 0
+getExpenses: -128
 isMember: True
 isMember: True
 putOnTop: DOESNT_EXISTS
@@ -2485,7 +2485,7 @@ getPlace: column=5, hight=81
 addCostumer: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
 getPlace: DOESNT_EXISTS
-getExpenses: -2109
+getExpenses: -981
 isMember: DOESNT_EXISTS
 makeMember: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
@@ -2500,7 +2500,7 @@ isMember: False
 getPhone: INVALID_INPUT
 getPhone: 161
 addPrize: INVALID_INPUT
-getExpenses: -316
+getExpenses: -733
 buyRecord: SUCCESS
 addPrize: INVALID_INPUT
 addPrize: SUCCESS
@@ -2511,7 +2511,7 @@ buyRecord: DOESNT_EXISTS
 getPhone: 164
 addCostumer: ALREADY_EXISTS
 putOnTop: INVALID_INPUT
-getExpenses: 2289
+getExpenses: -613
 getPlace: DOESNT_EXISTS
 putOnTop: FAILURE
 makeMember: ALREADY_EXISTS
@@ -2523,7 +2523,7 @@ addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
 putOnTop: DOESNT_EXISTS
 isMember: DOESNT_EXISTS
-getExpenses: -667
+getExpenses: -1333
 getExpenses: DOESNT_EXISTS
 getPlace: INVALID_INPUT
 getExpenses: DOESNT_EXISTS
@@ -2677,7 +2677,7 @@ buyRecord: SUCCESS
 addPrize: INVALID_INPUT
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
-getExpenses: -877
+getExpenses: -1543
 putOnTop: FAILURE
 makeMember: INVALID_INPUT
 makeMember: ALREADY_EXISTS
@@ -2688,7 +2688,7 @@ addCostumer: ALREADY_EXISTS
 getPhone: 220
 getPhone: 144
 getPhone: DOESNT_EXISTS
-getExpenses: -2278
+getExpenses: -784
 getPlace: DOESNT_EXISTS
 getPlace: column=5, hight=63
 isMember: True
@@ -2702,7 +2702,7 @@ isMember: False
 buyRecord: SUCCESS
 getPlace: INVALID_INPUT
 getPhone: 48
-getExpenses: -2142
+getExpenses: -2386
 buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
 addCostumer: SUCCESS
@@ -2719,7 +2719,7 @@ putOnTop: FAILURE
 buyRecord: SUCCESS
 getPhone: 189
 addPrize: INVALID_INPUT
-getExpenses: -63
+getExpenses: 0
 getPlace: column=5, hight=63
 getPhone: 21
 isMember: False
@@ -2739,7 +2739,7 @@ getPhone: DOESNT_EXISTS
 getExpenses: DOESNT_EXISTS
 getPhone: INVALID_INPUT
 getExpenses: DOESNT_EXISTS
-getExpenses: -1718
+getExpenses: -1962
 buyRecord: SUCCESS
 getPlace: column=5, hight=50
 getPlace: column=5, hight=0
@@ -2772,7 +2772,7 @@ getPlace: column=5, hight=63
 isMember: True
 addPrize: SUCCESS
 getExpenses: -357
-getExpenses: -246
+getExpenses: -817
 addPrize: INVALID_INPUT
 addCostumer: SUCCESS
 putOnTop: DOESNT_EXISTS
@@ -2789,7 +2789,7 @@ addPrize: INVALID_INPUT
 isMember: DOESNT_EXISTS
 putOnTop: DOESNT_EXISTS
 buyRecord: DOESNT_EXISTS
-getExpenses: 0
+getExpenses: -128
 getExpenses: DOESNT_EXISTS
 addCostumer: SUCCESS
 getPhone: 133
@@ -2849,7 +2849,7 @@ buyRecord: SUCCESS
 putOnTop: FAILURE
 getPhone: INVALID_INPUT
 makeMember: INVALID_INPUT
-getExpenses: -653
+getExpenses: -1319
 putOnTop: FAILURE
 isMember: True
 getExpenses: -1601
@@ -2893,7 +2893,7 @@ getPhone: 164
 makeMember: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
 putOnTop: FAILURE
-getExpenses: 33
+getExpenses: 96
 buyRecord: DOESNT_EXISTS
 makeMember: INVALID_INPUT
 makeMember: ALREADY_EXISTS
@@ -2910,7 +2910,7 @@ isMember: True
 getPlace: DOESNT_EXISTS
 putOnTop: DOESNT_EXISTS
 isMember: False
-getExpenses: -2191
+getExpenses: -2286
 isMember: True
 getPhone: 104
 makeMember: SUCCESS
@@ -2977,7 +2977,7 @@ getPlace: DOESNT_EXISTS
 isMember: False
 putOnTop: FAILURE
 buyRecord: SUCCESS
-getExpenses: -2511
+getExpenses: -1017
 getPlace: column=5, hight=50
 addCostumer: SUCCESS
 getExpenses: DOESNT_EXISTS
@@ -2999,11 +2999,11 @@ addPrize: SUCCESS
 getPlace: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
-getExpenses: -2193
+getExpenses: -2288
 getExpenses: -433
 putOnTop: INVALID_INPUT
 makeMember: ALREADY_EXISTS
-getExpenses: -506
+getExpenses: -2417
 getPhone: 90
 addPrize: INVALID_INPUT
 putOnTop: FAILURE
@@ -3062,7 +3062,7 @@ getPhone: INVALID_INPUT
 addCostumer: INVALID_INPUT
 isMember: DOESNT_EXISTS
 addPrize: SUCCESS
-getExpenses: -2693
+getExpenses: -1199
 getPlace: INVALID_INPUT
 makeMember: DOESNT_EXISTS
 isMember: True
@@ -3107,7 +3107,7 @@ addCostumer: ALREADY_EXISTS
 putOnTop: FAILURE
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
-getExpenses: -2827
+getExpenses: -2849
 getPhone: 176
 addCostumer: ALREADY_EXISTS
 isMember: True
@@ -3135,7 +3135,7 @@ addPrize: SUCCESS
 makeMember: ALREADY_EXISTS
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
-getExpenses: 445
+getExpenses: -398
 addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
 addPrize: SUCCESS
@@ -3180,7 +3180,7 @@ addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
 getPlace: DOESNT_EXISTS
-getExpenses: -362
+getExpenses: -933
 makeMember: ALREADY_EXISTS
 isMember: True
 addCostumer: ALREADY_EXISTS
@@ -3255,7 +3255,7 @@ addCostumer: SUCCESS
 putOnTop: INVALID_INPUT
 getPhone: 14
 getPlace: DOESNT_EXISTS
-getExpenses: -1427
+getExpenses: -1292
 getPlace: column=5, hight=48
 getPlace: DOESNT_EXISTS
 getPhone: DOESNT_EXISTS
@@ -3267,7 +3267,7 @@ addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
 getPlace: column=5, hight=18
-getExpenses: -997
+getExpenses: -862
 makeMember: INVALID_INPUT
 makeMember: SUCCESS
 buyRecord: SUCCESS
@@ -3282,7 +3282,7 @@ getPlace: column=5, hight=71
 makeMember: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 getPlace: DOESNT_EXISTS
-getExpenses: -968
+getExpenses: -833
 getPhone: INVALID_INPUT
 putOnTop: FAILURE
 getExpenses: DOESNT_EXISTS
@@ -3302,7 +3302,7 @@ makeMember: ALREADY_EXISTS
 addPrize: SUCCESS
 addPrize: SUCCESS
 getExpenses: DOESNT_EXISTS
-getExpenses: -3072
+getExpenses: -3094
 addCostumer: ALREADY_EXISTS
 makeMember: INVALID_INPUT
 addCostumer: ALREADY_EXISTS
@@ -3310,7 +3310,7 @@ addPrize: SUCCESS
 getPhone: DOESNT_EXISTS
 makeMember: SUCCESS
 makeMember: INVALID_INPUT
-getExpenses: -3127
+getExpenses: -1633
 addCostumer: ALREADY_EXISTS
 putOnTop: FAILURE
 addCostumer: ALREADY_EXISTS
@@ -3330,13 +3330,13 @@ addPrize: SUCCESS
 getPlace: DOESNT_EXISTS
 getPlace: DOESNT_EXISTS
 isMember: True
-getExpenses: -1513
+getExpenses: -1765
 getPlace: column=5, hight=48
 putOnTop: INVALID_INPUT
 addPrize: INVALID_INPUT
 buyRecord: SUCCESS
 getPlace: column=5, hight=81
-getExpenses: -3102
+getExpenses: -3124
 putOnTop: DOESNT_EXISTS
 buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
@@ -3469,7 +3469,7 @@ getPlace: column=5, hight=37
 addPrize: SUCCESS
 buyRecord: SUCCESS
 putOnTop: DOESNT_EXISTS
-getExpenses: -3697
+getExpenses: -3719
 getPlace: DOESNT_EXISTS
 addPrize: INVALID_INPUT
 getPhone: 30
@@ -3478,7 +3478,7 @@ getPhone: 178
 getPlace: DOESNT_EXISTS
 getPhone: 42
 putOnTop: DOESNT_EXISTS
-getExpenses: -1514
+getExpenses: -3425
 addCostumer: SUCCESS
 getPhone: 55
 buyRecord: SUCCESS
@@ -3493,12 +3493,12 @@ makeMember: DOESNT_EXISTS
 isMember: DOESNT_EXISTS
 getPlace: DOESNT_EXISTS
 makeMember: SUCCESS
-getExpenses: 297
+getExpenses: -707
 putOnTop: FAILURE
 getPhone: DOESNT_EXISTS
 buyRecord: SUCCESS
 addPrize: SUCCESS
-getExpenses: -440
+getExpenses: -1853
 buyRecord: SUCCESS
 getPlace: column=5, hight=71
 addCostumer: SUCCESS
@@ -3510,7 +3510,7 @@ putOnTop: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
 getPhone: DOESNT_EXISTS
 isMember: True
-getExpenses: -3609
+getExpenses: -3631
 buyRecord: SUCCESS
 buyRecord: SUCCESS
 isMember: False
@@ -3541,7 +3541,7 @@ buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
 getPlace: DOESNT_EXISTS
 buyRecord: SUCCESS
-getExpenses: -1447
+getExpenses: -3358
 putOnTop: INVALID_INPUT
 buyRecord: SUCCESS
 putOnTop: FAILURE
@@ -3597,7 +3597,7 @@ getExpenses: -2020
 getPlace: INVALID_INPUT
 getPhone: 110
 makeMember: INVALID_INPUT
-getExpenses: -1694
+getExpenses: -3605
 isMember: True
 putOnTop: FAILURE
 buyRecord: SUCCESS
@@ -3628,7 +3628,7 @@ makeMember: DOESNT_EXISTS
 getPlace: column=5, hight=48
 makeMember: ALREADY_EXISTS
 getPhone: 164
-getExpenses: -3798
+getExpenses: -3820
 buyRecord: SUCCESS
 addPrize: SUCCESS
 getPhone: 207
@@ -3668,7 +3668,7 @@ buyRecord: SUCCESS
 putOnTop: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
-getExpenses: -691
+getExpenses: -1259
 buyRecord: SUCCESS
 addPrize: SUCCESS
 getPhone: 134
@@ -3735,7 +3735,7 @@ addCostumer: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 putOnTop: DOESNT_EXISTS
 makeMember: SUCCESS
-getExpenses: -4357
+getExpenses: -4379
 addCostumer: ALREADY_EXISTS
 putOnTop: FAILURE
 getPhone: 81
@@ -3762,17 +3762,17 @@ addCostumer: ALREADY_EXISTS
 isMember: INVALID_INPUT
 putOnTop: INVALID_INPUT
 makeMember: SUCCESS
-getExpenses: -1317
+getExpenses: -1182
 addCostumer: INVALID_INPUT
 isMember: False
 getPlace: DOESNT_EXISTS
 buyRecord: SUCCESS
-getExpenses: -1496
+getExpenses: -2162
 addCostumer: ALREADY_EXISTS
 getPlace: INVALID_INPUT
 getPlace: DOESNT_EXISTS
 getPhone: 236
-getExpenses: -1244
+getExpenses: -1815
 isMember: False
 isMember: True
 buyRecord: DOESNT_EXISTS
@@ -3803,7 +3803,7 @@ getExpenses: -1005
 buyRecord: SUCCESS
 putOnTop: FAILURE
 putOnTop: FAILURE
-getExpenses: -2616
+getExpenses: -4024
 addCostumer: ALREADY_EXISTS
 isMember: True
 makeMember: DOESNT_EXISTS
@@ -3816,7 +3816,7 @@ getPhone: 5
 buyRecord: DOESNT_EXISTS
 putOnTop: FAILURE
 getPlace: column=5, hight=63
-getExpenses: -2363
+getExpenses: -2780
 putOnTop: FAILURE
 isMember: True
 buyRecord: SUCCESS
@@ -3829,7 +3829,7 @@ makeMember: ALREADY_EXISTS
 getExpenses: DOESNT_EXISTS
 isMember: False
 getPlace: DOESNT_EXISTS
-getExpenses: 771
+getExpenses: -24
 getPlace: DOESNT_EXISTS
 addCostumer: INVALID_INPUT
 makeMember: ALREADY_EXISTS
@@ -3847,7 +3847,7 @@ addCostumer: ALREADY_EXISTS
 getExpenses: -24
 addCostumer: ALREADY_EXISTS
 isMember: DOESNT_EXISTS
-getExpenses: -1055
+getExpenses: -2039
 putOnTop: INVALID_INPUT
 addPrize: SUCCESS
 getPhone: 158
@@ -3862,7 +3862,7 @@ buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
 addCostumer: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
-getExpenses: -1431
+getExpenses: -1296
 isMember: DOESNT_EXISTS
 getPhone: 176
 addPrize: SUCCESS
@@ -3893,7 +3893,7 @@ getPhone: 178
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
 putOnTop: FAILURE
-getExpenses: -4295
+getExpenses: -4317
 addCostumer: ALREADY_EXISTS
 isMember: DOESNT_EXISTS
 getPlace: DOESNT_EXISTS
@@ -3903,7 +3903,7 @@ isMember: True
 putOnTop: DOESNT_EXISTS
 isMember: True
 buyRecord: SUCCESS
-getExpenses: -1738
+getExpenses: -2404
 makeMember: SUCCESS
 getPlace: column=5, hight=18
 getExpenses: DOESNT_EXISTS
@@ -3931,7 +3931,7 @@ getPhone: 67
 isMember: True
 addCostumer: ALREADY_EXISTS
 getPhone: 109
-getExpenses: -163
+getExpenses: 0
 getPlace: column=5, hight=81
 getPhone: DOESNT_EXISTS
 getExpenses: INVALID_INPUT
@@ -3959,7 +3959,7 @@ getPlace: column=5, hight=50
 getPhone: 111
 getExpenses: DOESNT_EXISTS
 putOnTop: DOESNT_EXISTS
-getExpenses: -4452
+getExpenses: -3324
 putOnTop: DOESNT_EXISTS
 getPhone: 204
 getExpenses: -79
@@ -4024,7 +4024,7 @@ addCostumer: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 isMember: True
 addPrize: SUCCESS
-getExpenses: -2762
+getExpenses: -2857
 putOnTop: DOESNT_EXISTS
 putOnTop: FAILURE
 addCostumer: ALREADY_EXISTS
@@ -4033,7 +4033,7 @@ buyRecord: SUCCESS
 getPhone: 182
 buyRecord: INVALID_INPUT
 addPrize: SUCCESS
-getExpenses: -1555
+getExpenses: -2634
 putOnTop: FAILURE
 makeMember: ALREADY_EXISTS
 addCostumer: SUCCESS
@@ -4045,7 +4045,7 @@ getPhone: 62
 getPlace: INVALID_INPUT
 isMember: True
 addCostumer: ALREADY_EXISTS
-getExpenses: -4568
+getExpenses: -4590
 makeMember: ALREADY_EXISTS
 addPrize: INVALID_INPUT
 putOnTop: INVALID_INPUT
@@ -4062,7 +4062,7 @@ buyRecord: SUCCESS
 addPrize: SUCCESS
 getPhone: DOESNT_EXISTS
 isMember: False
-getExpenses: -3693
+getExpenses: -3788
 makeMember: SUCCESS
 addPrize: SUCCESS
 addPrize: INVALID_INPUT
@@ -4095,12 +4095,12 @@ getPhone: 55
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
 getPhone: 62
-getExpenses: -2493
+getExpenses: -4404
 getPhone: 138
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
-getExpenses: -2493
+getExpenses: -4404
 getPlace: DOESNT_EXISTS
 putOnTop: INVALID_INPUT
 buyRecord: SUCCESS
@@ -4131,7 +4131,7 @@ putOnTop: FAILURE
 getExpenses: -2050
 addPrize: SUCCESS
 putOnTop: FAILURE
-getExpenses: -2857
+getExpenses: -3944
 putOnTop: DOESNT_EXISTS
 getPlace: INVALID_INPUT
 putOnTop: DOESNT_EXISTS
@@ -4139,7 +4139,7 @@ isMember: False
 putOnTop: FAILURE
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
-getExpenses: -1981
+getExpenses: -2824
 isMember: True
 addPrize: SUCCESS
 getPhone: 54
@@ -4183,7 +4183,7 @@ putOnTop: INVALID_INPUT
 getPhone: 110
 putOnTop: INVALID_INPUT
 getExpenses: INVALID_INPUT
-getExpenses: 1875
+getExpenses: -115
 addPrize: SUCCESS
 putOnTop: DOESNT_EXISTS
 isMember: True
@@ -4204,17 +4204,17 @@ makeMember: ALREADY_EXISTS
 getExpenses: -4753
 isMember: False
 getPhone: 158
-getExpenses: -124
+getExpenses: -1979
 getPhone: 136
 makeMember: ALREADY_EXISTS
 getPhone: 39
 buyRecord: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
 buyRecord: SUCCESS
-getExpenses: -856
+getExpenses: -3973
 getExpenses: -5043
 putOnTop: DOESNT_EXISTS
-getExpenses: -2148
+getExpenses: -4059
 makeMember: SUCCESS
 isMember: True
 getPhone: 47
@@ -4223,7 +4223,7 @@ buyRecord: SUCCESS
 addPrize: INVALID_INPUT
 getExpenses: INVALID_INPUT
 buyRecord: SUCCESS
-getExpenses: -4109
+getExpenses: -4353
 getPlace: column=5, hight=48
 getPlace: column=5, hight=81
 putOnTop: DOESNT_EXISTS
@@ -4288,7 +4288,7 @@ addCostumer: ALREADY_EXISTS
 putOnTop: FAILURE
 getExpenses: -4943
 makeMember: SUCCESS
-getExpenses: -667
+getExpenses: -1717
 makeMember: ALREADY_EXISTS
 getPhone: 185
 makeMember: SUCCESS
@@ -4301,9 +4301,9 @@ putOnTop: INVALID_INPUT
 addCostumer: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
 addPrize: INVALID_INPUT
-getExpenses: -1434
+getExpenses: -2847
 putOnTop: DOESNT_EXISTS
-getExpenses: -2401
+getExpenses: -4312
 getPlace: column=5, hight=48
 makeMember: SUCCESS
 makeMember: INVALID_INPUT
@@ -4311,7 +4311,7 @@ getExpenses: -595
 makeMember: ALREADY_EXISTS
 isMember: DOESNT_EXISTS
 buyRecord: DOESNT_EXISTS
-getExpenses: -372
+getExpenses: -2227
 getExpenses: -5313
 getPhone: 52
 getExpenses: INVALID_INPUT
@@ -4347,7 +4347,7 @@ putOnTop: FAILURE
 getPhone: 41
 makeMember: SUCCESS
 addPrize: SUCCESS
-getExpenses: -1114
+getExpenses: -4231
 putOnTop: FAILURE
 addPrize: SUCCESS
 isMember: True
@@ -4369,7 +4369,7 @@ makeMember: SUCCESS
 getPlace: column=5, hight=81
 getPhone: 16
 getExpenses: DOESNT_EXISTS
-getExpenses: 660
+getExpenses: -314
 makeMember: ALREADY_EXISTS
 isMember: True
 makeMember: ALREADY_EXISTS
@@ -4414,7 +4414,7 @@ isMember: False
 putOnTop: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
 addCostumer: ALREADY_EXISTS
-getExpenses: -3393
+getExpenses: -4210
 getPhone: 143
 makeMember: DOESNT_EXISTS
 buyRecord: SUCCESS
@@ -4468,7 +4468,7 @@ getExpenses: -5341
 getPlace: column=5, hight=50
 getPhone: 68
 isMember: True
-getExpenses: 2733
+getExpenses: -1402
 addCostumer: ALREADY_EXISTS
 makeMember: ALREADY_EXISTS
 getPlace: column=5, hight=18
@@ -4482,7 +4482,7 @@ isMember: DOESNT_EXISTS
 buyRecord: SUCCESS
 addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
-getExpenses: -1368
+getExpenses: -2781
 buyRecord: SUCCESS
 putOnTop: DOESNT_EXISTS
 putOnTop: DOESNT_EXISTS
@@ -4491,7 +4491,7 @@ getPlace: INVALID_INPUT
 getPhone: 62
 getPlace: column=5, hight=48
 getPhone: 7
-getExpenses: -374
+getExpenses: -937
 isMember: INVALID_INPUT
 addCostumer: SUCCESS
 isMember: False
@@ -4499,7 +4499,7 @@ makeMember: ALREADY_EXISTS
 buyRecord: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 getPhone: 47
-getExpenses: -4413
+getExpenses: -4657
 isMember: INVALID_INPUT
 isMember: False
 getPhone: 117
@@ -4509,11 +4509,11 @@ makeMember: ALREADY_EXISTS
 putOnTop: DOESNT_EXISTS
 addPrize: INVALID_INPUT
 makeMember: ALREADY_EXISTS
-getExpenses: -3439
+getExpenses: -4256
 buyRecord: SUCCESS
 putOnTop: FAILURE
 addCostumer: ALREADY_EXISTS
-getExpenses: -374
+getExpenses: -937
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
 getPhone: DOESNT_EXISTS
@@ -4544,9 +4544,9 @@ makeMember: ALREADY_EXISTS
 addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
 getPlace: column=5, hight=71
-getExpenses: -2782
+getExpenses: -4092
 buyRecord: SUCCESS
-getExpenses: 4793
+getExpenses: -87
 buyRecord: SUCCESS
 makeMember: ALREADY_EXISTS
 isMember: True
@@ -4566,7 +4566,7 @@ addCostumer: ALREADY_EXISTS
 putOnTop: DOESNT_EXISTS
 getPhone: 50
 isMember: False
-getExpenses: -976
+getExpenses: -2887
 buyRecord: SUCCESS
 makeMember: SUCCESS
 isMember: True
@@ -4597,7 +4597,7 @@ buyRecord: SUCCESS
 addCostumer: ALREADY_EXISTS
 getPhone: DOESNT_EXISTS
 putOnTop: FAILURE
-getExpenses: -3165
+getExpenses: -3322
 getPlace: column=5, hight=81
 addPrize: INVALID_INPUT
 addCostumer: ALREADY_EXISTS
@@ -4630,7 +4630,7 @@ buyRecord: SUCCESS
 putOnTop: FAILURE
 isMember: False
 getPhone: 110
-getExpenses: -978
+getExpenses: -617
 isMember: INVALID_INPUT
 getPhone: 52
 getPhone: 77
@@ -4652,7 +4652,7 @@ addCostumer: ALREADY_EXISTS
 putOnTop: FAILURE
 buyRecord: SUCCESS
 addCostumer: SUCCESS
-getExpenses: -5270
+getExpenses: -5292
 buyRecord: SUCCESS
 addPrize: SUCCESS
 addPrize: SUCCESS
@@ -4669,7 +4669,7 @@ makeMember: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 buyRecord: SUCCESS
 getPlace: DOESNT_EXISTS
-getExpenses: -3427
+getExpenses: -5093
 makeMember: ALREADY_EXISTS
 addPrize: SUCCESS
 addCostumer: ALREADY_EXISTS
@@ -4687,7 +4687,7 @@ buyRecord: INVALID_INPUT
 makeMember: ALREADY_EXISTS
 isMember: True
 makeMember: SUCCESS
-getExpenses: -1911
+getExpenses: -3419
 buyRecord: SUCCESS
 buyRecord: INVALID_INPUT
 makeMember: ALREADY_EXISTS
@@ -4771,7 +4771,7 @@ putOnTop: DOESNT_EXISTS
 addPrize: SUCCESS
 putOnTop: DOESNT_EXISTS
 isMember: True
-getExpenses: -4722
+getExpenses: -3474
 makeMember: ALREADY_EXISTS
 makeMember: SUCCESS
 addCostumer: ALREADY_EXISTS

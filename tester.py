@@ -1,8 +1,36 @@
 import subprocess
 import os
 
-min = 11
-max = 99
+
+import glob
+
+
+def compile_cpp_files(path):
+    # Change directory to the specified path
+    os.chdir(path)
+
+    # Get a list of all .cpp files in the current directory
+    cpp_files = glob.glob("*.cpp")
+
+    if not cpp_files:
+        print("No .cpp files found in the specified directory.")
+        return
+
+    # Build the g++ command
+    command = ["g++", "-std=c++11", "-DNDEBUG", "-Wall"] + cpp_files + ["-o", "prog.exe"]
+
+    # Execute the command
+    subprocess.run(command)
+
+# Specify the path to the directory containing the .cpp files
+directory_path = r"C:\Users\yakir\Documents\TechnionHW\Matam\DS2WET_NEW\submission"
+
+# Call the compile_cpp_files function with the specified directory path
+compile_cpp_files(directory_path)
+
+
+min = 10
+max = 100
 
 input_files = [f"inFiles/test{i}.in" for i in range(min, max)]
 
@@ -46,7 +74,8 @@ def colorize_line(line, color):
 
 
 directory = r"C:\Users\yakir\Documents\TechnionHW\Matam\DS2WET_NEW\submission\outFiles"
-summary_file = os.path.join(directory, 'summary.txt')
+summary_directory = r"C:\Users\yakir\Documents\TechnionHW\Matam\DS2WET_NEW\submission"
+summary_file = os.path.join(summary_directory, 'summary.txt')
 
 with open(summary_file, 'w') as summary:
     for i in range(min, max):

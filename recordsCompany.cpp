@@ -14,7 +14,7 @@ RecordsCompany::~RecordsCompany(){
 
 StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
 {
-    if(number_of_records < 0)
+    if(number_of_records <= 0 || records_stocks == NULL)
         return INVALID_INPUT;
     try
     {
@@ -108,7 +108,7 @@ Output_t<bool> RecordsCompany::isMember(int c_id)
 
 StatusType RecordsCompany::buyRecord(int c_id, int r_id)
 {
-    if(c_id == 543)
+    if(r_id == 9)
         int s = 5;
     if(!validId(c_id) || !validId(r_id))
         return INVALID_INPUT;

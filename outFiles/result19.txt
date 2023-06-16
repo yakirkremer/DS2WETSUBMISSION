@@ -1,5 +1,1 @@
 Result for test19:
-Line 34 - out: getExpenses: -76
-Line 34 - result: getExpenses: 100
-Line 93 - out: getExpenses: -227
-Line 93 - result: getExpenses: -51

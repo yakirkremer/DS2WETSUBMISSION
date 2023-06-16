@@ -1,17 +1,1 @@
 Result for test41:
-Line 317 - out: getExpenses: -22
-Line 317 - result: getExpenses: -41
-Line 347 - out: getExpenses: 0
-Line 347 - result: getExpenses: -36
-Line 361 - out: getExpenses: 52
-Line 361 - result: getExpenses: -22
-Line 376 - out: getExpenses: 0
-Line 376 - result: getExpenses: -55
-Line 402 - out: getExpenses: -113
-Line 402 - result: getExpenses: -149
-Line 413 - out: getExpenses: -135
-Line 413 - result: getExpenses: -171
-Line 426 - out: getExpenses: -205
-Line 426 - result: getExpenses: -241
-Line 492 - out: getExpenses: 18
-Line 492 - result: getExpenses: -56

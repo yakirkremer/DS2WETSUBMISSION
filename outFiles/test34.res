@@ -207,14 +207,14 @@ buyRecord: DOESNT_EXISTS
 getPlace: DOESNT_EXISTS
 getPlace: column=24, hight=0
 getExpenses: INVALID_INPUT
-getExpenses: -428
+getExpenses: -129
 buyRecord: SUCCESS
 isMember: True
 isMember: True
 getPhone: 220
 makeMember: SUCCESS
 putOnTop: DOESNT_EXISTS
-getExpenses: -317
+getExpenses: 0
 isMember: True
 isMember: True
 isMember: False
@@ -798,7 +798,7 @@ makeMember: SUCCESS
 getPhone: 153
 isMember: True
 getPhone: 140
-getExpenses: 101
+getExpenses: -175
 buyRecord: INVALID_INPUT
 isMember: INVALID_INPUT
 getPlace: column=4, hight=0

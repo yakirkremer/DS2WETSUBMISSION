@@ -111,7 +111,7 @@ protected:
         cur->setRight(rotateLL(cur->right));
         return rotateRR(cur);
     }
-    Node* fixBalance(Node *cur) {
+    virtual Node* fixBalance(Node *cur) {
         if (getBf(cur) == 2) {
             if (getBf(cur->left) == -1)
                 return rotateLR(cur);

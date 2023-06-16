@@ -269,7 +269,7 @@ buyRecord: SUCCESS
 makeMember: SUCCESS
 buyRecord: SUCCESS
 putOnTop: DOESNT_EXISTS
-getExpenses: -12
+getExpenses: -193
 buyRecord: SUCCESS
 makeMember: SUCCESS
 isMember: False
@@ -284,7 +284,7 @@ buyRecord: SUCCESS
 isMember: True
 addPrize: INVALID_INPUT
 addCostumer: ALREADY_EXISTS
-getExpenses: -143
+getExpenses: -324
 makeMember: ALREADY_EXISTS
 isMember: INVALID_INPUT
 makeMember: INVALID_INPUT
@@ -299,7 +299,7 @@ isMember: False
 getPhone: INVALID_INPUT
 buyRecord: DOESNT_EXISTS
 buyRecord: SUCCESS
-getExpenses: -143
+getExpenses: -324
 isMember: True
 putOnTop: SUCCESS
 getPhone: 191
@@ -624,10 +624,10 @@ addCostumer: SUCCESS
 getPlace: column=7, hight=41
 putOnTop: FAILURE
 getExpenses: INVALID_INPUT
-getExpenses: -289
+getExpenses: -453
 buyRecord: SUCCESS
 makeMember: INVALID_INPUT
-getExpenses: -392
+getExpenses: -573
 getPlace: column=7, hight=192
 getPhone: INVALID_INPUT
 addPrize: SUCCESS
@@ -691,7 +691,7 @@ getPhone: DOESNT_EXISTS
 isMember: False
 buyRecord: SUCCESS
 getPlace: DOESNT_EXISTS
-getExpenses: -203
+getExpenses: -356
 putOnTop: INVALID_INPUT
 addPrize: SUCCESS
 addCostumer: SUCCESS
@@ -790,7 +790,7 @@ addCostumer: SUCCESS
 putOnTop: FAILURE
 getPlace: column=7, hight=172
 addCostumer: SUCCESS
-getExpenses: -78
+getExpenses: -178
 putOnTop: FAILURE
 addCostumer: ALREADY_EXISTS
 buyRecord: INVALID_INPUT
@@ -834,7 +834,7 @@ putOnTop: FAILURE
 addPrize: SUCCESS
 isMember: True
 getPlace: column=7, hight=152
-getExpenses: -185
+getExpenses: -313
 putOnTop: FAILURE
 getPlace: DOESNT_EXISTS
 addPrize: SUCCESS
@@ -866,7 +866,7 @@ isMember: False
 isMember: False
 isMember: False
 makeMember: ALREADY_EXISTS
-getExpenses: -838
+getExpenses: -1130
 addCostumer: SUCCESS
 getExpenses: DOESNT_EXISTS
 addCostumer: ALREADY_EXISTS
@@ -876,7 +876,7 @@ getExpenses: -91
 getExpenses: DOESNT_EXISTS
 makeMember: INVALID_INPUT
 putOnTop: FAILURE
-getExpenses: -495
+getExpenses: -648
 addCostumer: SUCCESS
 isMember: False
 getPlace: column=7, hight=172
@@ -934,7 +934,7 @@ addPrize: SUCCESS
 getPlace: column=7, hight=9
 buyRecord: SUCCESS
 addPrize: SUCCESS
-getExpenses: -438
+getExpenses: -1137
 addPrize: INVALID_INPUT
 getExpenses: -1379
 buyRecord: SUCCESS

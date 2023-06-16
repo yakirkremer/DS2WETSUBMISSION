@@ -1,15 +1,1 @@
 Result for test31:
-Line 198 - out: getExpenses: -95
-Line 198 - result: getExpenses: 196
-Line 276 - out: getExpenses: -266
-Line 276 - result: getExpenses: 25
-Line 314 - out: getExpenses: -266
-Line 314 - result: getExpenses: 25
-Line 356 - out: getExpenses: -211
-Line 356 - result: getExpenses: -168
-Line 384 - out: getExpenses: -53
-Line 384 - result: getExpenses: -10
-Line 422 - out: getExpenses: -135
-Line 422 - result: getExpenses: 156
-Line 524 - out: getExpenses: -263
-Line 524 - result: getExpenses: -383
